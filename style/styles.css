@@ -90,15 +90,15 @@ nav ul li:hover {
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    margin-top: 4rem;
-    margin-bottom: 4rem;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
 }
 
 .content-home .welcome-itens h1,h2{
-    margin-top: 8px;
-    margin-bottom: 9px;
+    margin-top: 3px;
+    margin-bottom: 3px;
 }
 
 .content-home .welcome-itens p{
@@ -210,6 +210,55 @@ figure, img{
 
 .social-media div i{
     font-size: 2rem;
+}
+
+@media (max-width: 899px) and (orientation: landscape) { 
+    .menu-itens{
+        display: none;
+        position: absolute;
+        width: 100%;
+        top: 69px;
+        right: 0px;
+        background-color: var(--primary-color);
+        opacity: 90%;
+        height: calc(100vh - 69px);
+        z-index: 1000;
+        transition: 3s;
+        overflow-y: hidden;
+    }
+    .menu-itens li{
+        color: #FFF;
+        opacity: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        margin: 3rem 0;
+    }
+    .btn-menu{
+        display: flex;
+        color: #FFF;
+        padding: .5rem 1rem;
+        font-size: 1rem;
+        border: none;
+        background: none;
+        cursor: pointer;
+    }
+
+    .menu.active .menu-itens{
+        display: block;
+        overflow-y: auto;
+    } 
+
+    .menu.active .btn-menu{
+        transition: .5s;
+        color: var(--secondary-color);
+    }
+    .content-home{
+        margin-top: 3px;
+        margin-bottom: 3px;
+        justify-content: flex-start;
+    }
 }
 
 @media (max-width: 870px){
