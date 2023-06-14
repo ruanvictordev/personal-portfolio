@@ -192,7 +192,6 @@ figure, img{
     display: flex;
     width: 4rem;
     height: 4rem;
-    margin-right: 1rem;
     align-items: center;
     justify-content: center;
     background-color: var(--primary-color);
@@ -269,7 +268,7 @@ figure, img{
     .lb{
         display: none;
     }
-    
+
     .card-about {
         display: flex;
         flex-direction: column;
