@@ -265,6 +265,11 @@ figure, img{
         align-items: center;
         justify-content: center;
     }
+
+    .lb{
+        display: none;
+    }
+    
     .card-about {
         display: flex;
         flex-direction: column;
