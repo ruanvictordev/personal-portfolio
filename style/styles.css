@@ -230,12 +230,15 @@ figure, img{
         top: 69px;
         right: 0px;
         background-color: var(--primary-color);
+        opacity: 90%;
         height: calc(100vh - 69px);
         z-index: 1000;
         transition: 3s;
         overflow-y: hidden;
     }
     .menu-itens li{
+        color: #FFF;
+        opacity: 100%;
         display: flex;
         align-items: center;
         justify-content: center;
