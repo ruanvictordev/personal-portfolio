@@ -260,6 +260,11 @@ figure, img{
         overflow-y: auto;
     } 
 
+    .menu.active .btn-menu{
+        transition: .5s;
+        color: var(--secondary-color);
+    }
+
     .content-home{
         justify-content: center;
     }
