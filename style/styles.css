@@ -111,7 +111,7 @@ nav ul li:hover {
     content: '|';
     margin-left: 4px;
     opacity: 1;
-    animation: blink .4s infinite;
+    animation: blink .4s none;
 }
 
 @keyframes blink{
