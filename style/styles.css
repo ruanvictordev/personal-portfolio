@@ -370,6 +370,10 @@ figure, img{
         gap: 20px;
     }
 
+    .grid-projects > .project{
+
+        height: 40%;
+    }
 }
 
 
