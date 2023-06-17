@@ -349,10 +349,11 @@ figure, img{
         position: absolute;
         width: 100%;
         top: 55px;
+        bottom: 100%;
         right: 0px;
         background-color: var(--primary-color);
         opacity: 90%;
-        height: calc(100vh - 69px);
+        height: calc(100vh - 55px);
         z-index: 1000;
         transition: 3s;
         overflow-y: hidden;
