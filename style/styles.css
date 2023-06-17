@@ -281,11 +281,13 @@ figure, img{
     padding: 1rem;
 }
 
-.project h3{
+.project > a > h3{
+    margin-top: 1rem;
     text-align: left;
 }
 
 .project p{
+
     text-align: left;
 }
 
@@ -346,7 +348,7 @@ figure, img{
         display: none;
         position: absolute;
         width: 100%;
-        top: 69px;
+        top: 55px;
         right: 0px;
         background-color: var(--primary-color);
         opacity: 90%;
