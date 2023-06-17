@@ -1,3 +1,7 @@
+/**
+    DEFAULT STYLES ====================================================================
+*/
+
 *{
     margin: 0;
     padding: 0;
@@ -46,6 +50,15 @@ p{
     color: var(--font-details-color);
     font-size: 1rem;
 }
+
+.tag{
+    color: var(--secondary-color);
+}
+
+/**
+    NAVBAR STYLES ===========================================================================
+*/
+
 nav{
     background-color: var(--primary-color);
     padding: 2% 5% 2% 5%;
@@ -81,9 +94,9 @@ nav ul li:hover {
     margin: 0;
 }
 
-.tag{
-    color: var(--secondary-color);
-}
+/**
+    CONTENT HOME STYLES ===========================================================================
+*/
 
 .content-home{
     width: 50%;
@@ -145,7 +158,9 @@ nav ul li:hover {
     transition: .5s;
 }
 
-
+/**
+    CONTENT ABOUT STYLES ===========================================================================
+*/
 
 .content-about{
     width: 100%;
@@ -231,6 +246,12 @@ figure, img{
     font-size: 2rem;
 }
 
+
+/**
+    CONTENT PROJECTS STYLES ===========================================================================
+*/
+
+
 .content-projects{
     width: 100%;
     height: 100%;
@@ -283,6 +304,11 @@ figure, img{
     height: 70%;
 }
 
+
+/**
+    CONTENT FOOTER STYLES ===========================================================================
+*/
+
 .content-footer{
     background-color: var(--tertiary-color);
     border-top: 2px solid var(--line-details-color);
@@ -297,6 +323,12 @@ figure, img{
 .content-footer h3{
     font-weight: normal;
 }
+
+
+/**
+    RESPONSIVE STYLES ===========================================================================
+*/
+
 
 @media (max-width: 870px){
     h1{
