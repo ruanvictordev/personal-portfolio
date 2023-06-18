@@ -374,7 +374,8 @@ figure, img{
 .education-content .content {
     position: relative;
     padding: 1.5rem;
-    border: 2px solid var(--secondary-color);
+    background-color: var(--tertiary-color);
+    border: 2px solid var(--line-details-color);
     border-radius: .6rem;
     margin-bottom: 2rem;
 }
