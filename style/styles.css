@@ -126,7 +126,7 @@ nav ul li:hover {
     content: '|';
     margin-left: 4px;
     opacity: 1;
-    animation: blink .6s none;
+    animation: blink .6s infinite;
 }
 
 @keyframes blink{
@@ -320,11 +320,20 @@ figure, img{
     border: 2px solid var(--tertiary-color);
 }
 
+.project:hover img{
+    -moz-transform: scale(1.02);
+    -webkit-transform: scale(1.02);
+    transform: scale(1.02);
+}
 
 
 .journey{
     margin-top: 7rem;
     margin-bottom: 7rem;
+}
+.journey h2{
+    text-align: center;
+    margin-bottom: 3rem;
 }
 
 .journey .education-row{
@@ -333,17 +342,13 @@ figure, img{
     gap: 5rem;
 }
 
-.journey .education-row  .education-column h3{
-    font-size: 1.5rem;
-}
-
 .education-row .education-column{
     flex: 1 1 40rem;
 }
 
 .education-column .title{
-   font-size:  2.5rem;
-   margin: 0 0 1.5rem 2rem; 
+   font-size:  1.5rem;
+   margin: 0 0 1.5rem 0; 
 }
 
 .education-column .education-box {
@@ -359,9 +364,9 @@ figure, img{
     content: '';
     position: absolute;
     top: 0;
-    left: -1.1rem;
-    width: 2rem;
-    height: 2rem;
+    left: -0.8rem;
+    width: 1.5rem;
+    height: 1.5rem;
     background: var(--secondary-color);
     border-radius: 50%;
 }
@@ -369,7 +374,7 @@ figure, img{
 .education-content .content {
     position: relative;
     padding: 1.5rem;
-    border: .2rem solid var(--secondary-color);
+    border: 2px solid var(--secondary-color);
     border-radius: .6rem;
     margin-bottom: 2rem;
 }
@@ -393,9 +398,10 @@ figure, img{
 
 
 .education-content .content .year {
-    font-size: 1.5rem;
+    font-size: 1rem;
     color: var(--secondary-color);
     padding-bottom: .5rem;
+    text-align: left;
 }
 
 .education-content .content .year i {
@@ -403,12 +409,12 @@ figure, img{
 }
 
 .education-content .content h3{
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 .education-content .content p {
-    font-size: 1.6rem;
-    padding-top: .5rem;
+    font-size: 1rem;
+    text-align: justify;
 }
 
 
