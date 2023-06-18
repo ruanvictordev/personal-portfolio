@@ -266,12 +266,14 @@ figure, img{
     display: flex;
     flex-wrap: wrap;
     max-width: 100%;
+    max-height: 100%;
     margin: 0 auto;
 }
 
-.grid-projects > .project{
+.grid-projects > a {
     flex: 1 1 200px;
     margin: 10px;
+    text-decoration: none;
 }
 
 .project{
@@ -279,9 +281,13 @@ figure, img{
     border: 2px solid var(--line-details-color);
     border-radius: 5px;
     padding: 1rem;
+
+    max-height: 100%;
 }
 
-.project > a > h3{
+.project-title{
+    text-decoration: none;
+    color: #FFF;
     margin-top: 1rem;
     text-align: left;
 }
@@ -306,6 +312,17 @@ figure, img{
     height: 70%;
 }
 
+.project:hover{
+    cursor: pointer;
+    background-color: var(--line-details-color);
+    border: 2px solid var(--tertiary-color);
+}
+
+.project:hover img{
+    -moz-transform: scale(1.02);
+    -webkit-transform: scale(1.02);
+    transform: scale(1.02);
+}
 
 /**
     CONTENT FOOTER STYLES ===========================================================================
@@ -420,9 +437,14 @@ figure, img{
         gap: 20px;
     }
 
-    .grid-projects > .project{
+    .grid-projects > a {
 
         height: 40%;
+    }
+    .project-title{
+        border: 0;
+        text-decoration: none;
+        font-size: 1rem;
     }
 }
 
