@@ -68,6 +68,7 @@ nav{
 
     position: sticky;
     top: 0;
+    z-index: 1020;
 }
 
 nav ul{
@@ -255,6 +256,7 @@ figure, img{
 .content-projects{
     width: 100%;
     height: 100%;
+    margin-bottom: 7rem;
 }
 
 .content-projects > h2{
@@ -318,11 +320,98 @@ figure, img{
     border: 2px solid var(--tertiary-color);
 }
 
-.project:hover img{
-    -moz-transform: scale(1.02);
-    -webkit-transform: scale(1.02);
-    transform: scale(1.02);
+
+
+.journey{
+    margin-top: 7rem;
+    margin-bottom: 7rem;
 }
+
+.journey .education-row{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5rem;
+}
+
+.journey .education-row  .education-column h3{
+    font-size: 1.5rem;
+}
+
+.education-row .education-column{
+    flex: 1 1 40rem;
+}
+
+.education-column .title{
+   font-size:  2.5rem;
+   margin: 0 0 1.5rem 2rem; 
+}
+
+.education-column .education-box {
+    border-left: .2rem solid var(--secondary-color);
+}
+
+.education-box .education-content { 
+    position: relative;
+    padding-left: 2rem;
+}
+
+.education-box .education-content::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -1.1rem;
+    width: 2rem;
+    height: 2rem;
+    background: var(--secondary-color);
+    border-radius: 50%;
+}
+
+.education-content .content {
+    position: relative;
+    padding: 1.5rem;
+    border: .2rem solid var(--secondary-color);
+    border-radius: .6rem;
+    margin-bottom: 2rem;
+}
+
+.education-content .content::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background: var(--second-bg-color);
+    z-index: -1;
+    transition: .5s;
+}
+
+.education-content .content:hover::before {
+    width: 100%;
+}
+
+
+
+.education-content .content .year {
+    font-size: 1.5rem;
+    color: var(--secondary-color);
+    padding-bottom: .5rem;
+}
+
+.education-content .content .year i {
+    padding-right: .5rem;
+}
+
+.education-content .content h3{
+    font-size: 2rem;
+}
+
+.education-content .content p {
+    font-size: 1.6rem;
+    padding-top: .5rem;
+}
+
+
 
 /**
     CONTENT FOOTER STYLES ===========================================================================
