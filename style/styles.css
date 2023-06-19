@@ -574,6 +574,12 @@ figure, img{
         text-decoration: none;
         font-size: 1rem;
     }
+
+
+    .education-content .content p {
+        font-size: 1rem;
+        text-align: left;
+    }
 }
 
 
