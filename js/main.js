@@ -85,12 +85,12 @@ document.addEventListener('DOMContentLoaded', function() {
 
 window.sr = ScrollReveal({ reset: true,origin: "top", distance:"50px", duration: 4000 });
 
-sr.reveal('#home', { duration: 2000 });
+sr.reveal('#home', { duration: 1000 });
 
-sr.reveal('#about', { duration: 2000 });
+sr.reveal('#about', { duration: 1000 });
 
-sr.reveal('#projects', { duration: 2000 });
+sr.reveal('#projects', { duration: 1000 });
 
-sr.reveal('#journey', { duration: 2000 });
+sr.reveal('#journey', { duration: 1000 });
 
-sr.reveal('#tech', { duration: 2000 });
+sr.reveal('#tech', { duration: 1000 });
