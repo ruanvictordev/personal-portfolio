@@ -85,7 +85,12 @@ nav ul li {
     cursor: pointer;
 }
 
-nav ul li:hover {
+.menu-itens li a{
+    text-decoration: none;
+    color: var(--font-details-color);
+}
+
+.menu-itens li a:hover{
     color: #FFF;
     transition: .5s;
 }
@@ -137,6 +142,10 @@ nav ul li:hover {
     50%{
         opacity: 0;
     }
+}
+
+.welcome-itens a{
+    text-decoration: none;
 }
 
 .button-cv{
