@@ -22,7 +22,7 @@
 
 ::selection {
     background-color: var(--secondary-color);
-    color: #FFF;
+    color: var(--primary-color);
 }
 
 
