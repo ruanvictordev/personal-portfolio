@@ -662,9 +662,13 @@ span {
     }
 
     .grid-tech > div {
-        flex: 0 0 50px;
+        flex: 1 0 50px;
         margin: 10px;
         text-decoration: none;
+    }
+
+    .content-footer{
+        margin-top: 1rem;
     }
 }
 
