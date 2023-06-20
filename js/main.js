@@ -94,3 +94,29 @@ sr.reveal('#projects', { duration: 900 });
 sr.reveal('#journey', { duration: 1000 });
 
 sr.reveal('#tech', { duration: 900 });
+
+// TECH HOVER =======================================================================================
+
+// Obtém o elemento de descrição
+const techDescription = document.getElementById('tech-description');
+
+// Obtém todos os elementos .tech
+const techElements = document.querySelectorAll('.tech');
+
+// Itera sobre cada elemento .tech
+techElements.forEach(element => {
+  // Obtém a descrição associada a cada elemento
+  const description = element.getAttribute('data-description');
+
+  // Adiciona um evento mouseover a cada elemento
+  element.addEventListener('mouseover', () => {
+    // Define o texto da descrição
+    techDescription.textContent = description;
+  });
+
+  // Adiciona um evento mouseout a cada elemento
+  element.addEventListener('mouseout', () => {
+    // Limpa o texto da descrição
+    techDescription.textContent = '';
+  });
+});
