@@ -11,7 +11,7 @@
 - Fontes: GoogleFonts;
 - Bibliotecas: ScrollReveal;
 
-## 🤝 How Contribute
+## 🤝 Como contribuir?
 
 ```bash
     # 1. Fork the project;
