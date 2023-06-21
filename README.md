@@ -19,7 +19,7 @@
     # 3. Before your changes, realize the pull request;
 ```
 
-## 👨‍💻 Autors
+## 👨‍💻 Autores
 <table>
   <tr>
     <td align="center">
