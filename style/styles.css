@@ -451,6 +451,7 @@ span {
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+    width: 100%;
     max-width: 100%;
     max-height: 100%;
     margin: 0 auto;
