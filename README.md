@@ -4,6 +4,7 @@
 
 ## 💻 Tecnologias
 
+- Design: [Projeto Figma](https://www.figma.com/file/nXCibRBFWR8COvMyhpkgrn/PortFolio?type=design&node-id=0%3A1&t=Kd1b7Ahvfib1OPYm-1)
 - HTML5;
 - CSS3;
 - JavaScript;
