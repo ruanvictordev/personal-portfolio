@@ -344,6 +344,24 @@ span {
     transform: scale(1.02);
 }
 
+.project-tags{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.project-tag{
+    color: var(--secondary-color);
+    background-color: var(--tertiary-color);
+    border: 2px solid var(--line-details-color);
+    border-radius: 10px;
+    font-size: 1.9rem;
+    width: 2.5rem;
+    height: 3rem;
+    padding: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 /**
     CONTENT JOURNEY STYLES ===========================================================================
