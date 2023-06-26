@@ -1,0 +1,187 @@
+/**
+    RESPONSIVE STYLES ===========================================================================
+*/
+
+
+@media (max-width: 870px) {
+    h1 {
+        font-size: 1.6rem;
+    }
+
+    h2 {
+        font-size: 1.4rem;
+    }
+
+    p {
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+    .menu-itens {
+        display: none;
+        position: absolute;
+        width: 100%;
+        top: 55px;
+        bottom: 100%;
+        right: 0px;
+        background-color: var(--primary-color);
+        opacity: 90%;
+        height: calc(100vh - 55px);
+        z-index: 1000;
+        transition: 3s;
+        overflow-y: hidden;
+    }
+
+    .menu-itens li {
+        color: #FFF;
+        opacity: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        margin: 3rem 0;
+    }
+
+    .btn-menu {
+        display: flex;
+        color: #FFF;
+        font-size: 1rem;
+        border: none;
+        background: none;
+        cursor: pointer;
+    }
+
+    .menu.active .menu-itens {
+        display: block;
+        overflow-y: auto;
+    }
+
+    .menu.active .btn-menu {
+        transition: .5s;
+        color: var(--secondary-color);
+    }
+
+    .content-home {
+        width: 100%;
+        height: 50vh;
+        margin: 9rem 0;
+        justify-content: center;
+    }
+
+    .content-home .welcome-itens {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .lb {
+        display: none;
+    }
+
+    .card-about {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .card-about img {
+        margin-bottom: 20px;
+    }
+
+    .social-media {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .grid-projects>a {
+
+        height: 40%;
+    }
+
+    .project-title {
+        border: 0;
+        text-decoration: none;
+        font-size: 1rem;
+    }
+
+
+    .education-content .content p {
+        font-size: 1rem;
+        text-align: left;
+    }
+
+    .content-tech p{
+        font-size: 0.7rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .grid-tech > div {
+        flex: 1 0 50px;
+        margin: 10px;
+        text-decoration: none;
+    }
+
+    .content-footer{
+        margin-top: 1rem;
+    }
+}
+
+
+@media (max-width: 899px) and (orientation: landscape) {
+    .menu-itens {
+        display: none;
+        position: absolute;
+        width: 100%;
+        top: 69px;
+        right: 0px;
+        background-color: var(--primary-color);
+        opacity: 90%;
+        height: calc(100vh - 69px);
+        z-index: 1000;
+        transition: 3s;
+        overflow-y: hidden;
+    }
+
+    .menu-itens li {
+        color: #FFF;
+        opacity: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        margin: 3rem 0;
+    }
+
+    .btn-menu {
+        display: flex;
+        color: #FFF;
+        padding: .5rem 1rem;
+        font-size: 1rem;
+        border: none;
+        background: none;
+        cursor: pointer;
+    }
+
+    .menu.active .menu-itens {
+        display: block;
+        overflow-y: auto;
+    }
+
+    .menu.active .btn-menu {
+        transition: .5s;
+        color: var(--secondary-color);
+    }
+
+    .content-home {
+        margin-top: 3px;
+        margin-bottom: 3px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+}

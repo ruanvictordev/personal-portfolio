@@ -1,0 +1,77 @@
+/**
+    CONTENT PROJECTS STYLES ===========================================================================
+*/
+
+.title-section {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.content-projects {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 7rem;
+}
+
+.grid-projects {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    max-height: 100%;
+    margin: 0 auto;
+}
+
+.grid-projects>a {
+    flex: 1 1 200px;
+    margin: 10px;
+    text-decoration: none;
+}
+
+.project {
+    background-color: var(--tertiary-color);
+    border: 2px solid var(--line-details-color);
+    border-radius: 5px;
+    padding: 1rem;
+
+    max-height: 100%;
+}
+
+.project-title {
+    text-decoration: none;
+    color: #FFF;
+    margin-top: 1rem;
+    text-align: left;
+}
+
+.project p {
+
+    text-align: left;
+}
+
+.project a {
+    color: var(--secondary-color);
+    text-decoration: underlines;
+}
+
+.project a:hover {
+    color: #FFF;
+    text-decoration: none;
+}
+
+.project img {
+    width: 100%;
+    height: 70%;
+}
+
+.project:hover {
+    cursor: pointer;
+    background-color: var(--line-details-color);
+    border: 2px solid var(--tertiary-color);
+}
+
+.project:hover img {
+    -moz-transform: scale(1.02);
+    -webkit-transform: scale(1.02);
+    transform: scale(1.02);
+}

@@ -1,0 +1,46 @@
+/**
+    CONTENT FOOTER STYLES ===========================================================================
+*/
+
+.content-footer {
+    background-color: var(--tertiary-color);
+    border-top: 2px solid var(--line-details-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4rem;
+    margin-top: 4rem;
+
+}
+
+.content-footer h3 {
+    font-weight: normal;
+}
+
+
+#btnTop {
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    width: 50px;
+    height: 50px;
+    background-color: var(--primary-color);
+    border: 2px solid var(--line-details-color);
+    border-radius: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    opacity: 85%;
+
+    cursor: pointer;
+}
+
+#btnTop:hover {
+    background-color: var(--line-details-color);
+    border: 2px solid var(--primary-color);
+}
+
+#btnTop i {
+    color: var(--secondary-color);
+}
