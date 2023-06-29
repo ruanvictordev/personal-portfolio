@@ -363,6 +363,11 @@ span {
     justify-content: center;
 }
 
+#LostGem .project .project-tags .project-tag{
+    font-size: 1rem;
+    width: 7rem;
+}
+
 /**
     CONTENT JOURNEY STYLES ===========================================================================
 */
