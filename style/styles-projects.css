@@ -7,6 +7,8 @@ body{
     height: 33rem;
     object-fit: cover;
     object-position: 10% 10%;
+
+    border-bottom: 2px solid rgb(72, 72, 72);
 }
 
 .content-header{
