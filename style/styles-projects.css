@@ -4,9 +4,9 @@ body{
 
 .project-banner{
     width: 100vw;
-    height: 28rem;
+    height: 33rem;
     object-fit: cover;
-    object-position: 20% 20%;
+    object-position: 10% 10%;
 }
 
 .content-header{
