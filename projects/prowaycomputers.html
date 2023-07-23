@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -20,16 +21,13 @@
 
     <!-- Scripts-->
     <script src="https://kit.fontawesome.com/af233e75ce.js" crossorigin="anonymous"></script>
-    
-    <title>ProWayComputets | Ruan Victor</title>
+
+    <title>ProWayComputers | Ruan Victor</title>
     <link rel="shortcut icon" href="../imgs/favicon.ico" />
 </head>
+
 <body>
-    <img 
-        class="project-banner" 
-        src="../imgs/projects/ProwayComputers.png" 
-        alt="Pro Way Computers"
-    >
+    <img class="project-banner" src="../imgs/projects/ProWayComputers/BannerProWay.PNG" alt="Pro Way Computers">
 
     <main>
         <section class="content-header">
@@ -38,20 +36,76 @@
                 <h4>Website</h4>
             </article>
             <article class="links">
-                <a href="">Ver projeto</a>
-                <a href="">Repositório</a>
+                <a href="https://proway-computers-six.vercel.app/produtos" target="_blank">Ver projeto <i
+                        class="fa-solid fa-globe"></i></a>
+                <a href="https://github.com/ruanvcg/proway-computers" target="_blank">Repositório <i
+                        class="fa-brands fa-github"></i></a>
             </article>
         </section>
 
         <section class="content-description">
             <h2 class="title-section"><span class="tag">&lt</span>Descrição<span class="tag">/&gt</span></h2>
-            <p>Lorem ipsum in curae enim senectus sollicitudin nisl arcu luctus, vulputate senectus ad augue scelerisque accumsan inceptos eget curae mauris, consectetur vivamus euismod etiam vel vulputate nec tristique. malesuada hac metus sodales amet lacus sapien ut aenean nisl turpis, senectus turpis nunc bibendum orci sapien augue primis semper eget,</p>
+            <p>
+                Website construído para simular um e-commerce de aparelhos tecnológicos, desenvolvido durante o
+                minicurso de Angular da ProWay, onde o principal objetivo foi aplicar os conceitos técnicos do framework
+                JavaScript. O site possui toda a lógica para listar produtos, adicionar ao carrinho, remover e validação
+                de formulário para contato.
+            </p>
         </section>
 
         <section class="content-techs">
             <h2 class="title-section"><span class="tag">&lt</span>Tecnologias<span class="tag">/&gt</span></h2>
-            <p></p>
+            <div class="grid-tech">
+                <div class="tech" data-description="HTML5"><i class="fa-brands fa-html5"></i></div>
+                <div class="tech" data-description="CSS3"><i class="fa-brands fa-css3-alt"></i></div>
+                <div class="tech" data-description="JS"><i class="fa-brands fa-square-js"></i></div>
+                <div class="tech" data-description="JS"><i class="fa-brands fa-angular"></i></div>
+            </div>
         </section>
+
+        <section class="content-screenshots">
+            <h2 class="title-section"><span class="tag">&lt</span>Screenshots<span class="tag">/&gt</span></h2>
+            <article class="screens">
+                <!--<section class="screen-sec">
+                    <h3>Preview</h3>
+                    <p>Video demonstração do website.</p>
+                    <video src=""></video>
+                </section>-->
+                <section class="screen-sec">
+                    <h3>Home</h3>
+                    <p>Página inicial do web site com a listagem dos produtos disponíveis.</p>
+                    <img src="../imgs/projects/ProWayComputers/BannerProWay.PNG" alt="">
+                </section>
+                <section class="screen-sec">
+                    <h3>Carrinho</h3>
+                    <p>Seção responsável por armazenar os produtos adicionados ao carrinho pelo usuário.</p>
+                    <img src="../imgs/projects/ProWayComputers/CarrinhoProWay.PNG" alt="">
+                </section>
+                <section class="screen-sec">
+                    <h3>Contato</h3>
+                    <p>Área com formulário para entrar em contato direto com a empresa.</p>
+                    <img src="../imgs/projects/ProWayComputers/ContatoProWay.PNG" alt="">
+                </section>
+            </article>
+        </section>
+
     </main>
+
+    <a href="../index.html" class="return">
+        Voltar
+    </a>
+
+    <div id="btnTop">
+        <i class="fa-solid fa-arrow-up"></i>
+    </div>
+
+    <footer>
+        <div class="content-footer">
+            <h3><span class="tag">&copy;</span>Ruan Victor | 2023</h3>
+        </div>
+    </footer>
+
+    <script src="../js/arrowUpEffect.js"></script>
 </body>
+
 </html>
