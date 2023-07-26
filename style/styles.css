@@ -336,12 +336,14 @@ span {
     cursor: pointer;
     background-color: var(--line-details-color);
     border: 2px solid var(--tertiary-color);
+    transition: 0.5s;
 }
 
 .project:hover img {
-    -moz-transform: scale(1.02);
-    -webkit-transform: scale(1.02);
-    transform: scale(1.02);
+    -moz-transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+    transition: 0.5s;
 }
 
 .project-tags{
@@ -426,6 +428,7 @@ span {
 .education-content .content:hover{
     background-color: var(--line-details-color);
     border: 2px solid var(--tertiary-color);
+    transition: 0.5s;
 }
 
 .education-content .content::before {
@@ -506,6 +509,7 @@ span {
 .tech:hover{
     background-color: var(--line-details-color);
     border: 2px solid var(--tertiary-color);
+    transition: 0.5s;
     cursor: pointer;
 }
 
@@ -517,6 +521,7 @@ span {
     background-color: var(--tertiary-color);
     border-top: 2px solid var(--line-details-color);
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     padding: 4rem;
@@ -528,6 +533,26 @@ span {
     font-weight: normal;
 }
 
+.content-footer ul{
+    margin: 1rem;
+    list-style: none;
+    display: flex;
+}
+
+.content-footer ul li a{
+    margin: 0.5rem;
+    color: #FFF;
+    text-decoration: none;
+}
+
+.content-footer ul li a i{
+    font-size: 1.5rem;
+}
+
+.content-footer ul li a:hover{
+    color: var(--secondary-color);
+    transition: 0.5s;
+}
 
 #btnTop {
     position: fixed;
@@ -550,6 +575,7 @@ span {
 #btnTop:hover {
     background-color: var(--line-details-color);
     border: 2px solid var(--primary-color);
+    transition: 0.5s;
 }
 
 #btnTop i {
