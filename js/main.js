@@ -1,10 +1,12 @@
 
+const menu = document.querySelector("#menu");
+const btnMobile = document.querySelector(".btn-menu");
+const descript = document.querySelector('.descript');
+var linksMenu = document.querySelectorAll('#menu .menu-itens li a');
+
 // MENU RESPONSIVE ======================================================================
 
-const btnMobile = document.querySelector(".btn-menu");
-
 function toggleMenu() {
-  const menu = document.querySelector(".menu");
   menu.classList.toggle("active");
 }
 
@@ -13,8 +15,6 @@ btnMobile.addEventListener("click", toggleMenu);
 
 
 // EFECT TYPING ==========================================================================
-
-const descript = document.querySelector('.descript');
 
 function typeWrite(element){
   const textoArray = element.innerHTML.split('');
@@ -33,8 +33,6 @@ typeWrite(descript)
 
 
 document.addEventListener('DOMContentLoaded', function() {
-  // Captura todos os links de âncora dentro do menu de navegação
-  var linksMenu = document.querySelectorAll('.menu .menu-itens li a');
 
   // Adiciona um evento de clique a cada link do menu
   linksMenu.forEach(function(link) {
@@ -53,6 +51,7 @@ document.addEventListener('DOMContentLoaded', function() {
         top: targetOffsetTop - offset,
         behavior: 'smooth'
       });
+      menu.classList.remove("active");
     });
   });
 });
@@ -71,3 +70,18 @@ sr.reveal('#projects', { duration: 900 });
 sr.reveal('#journey', { duration: 1000 });
 
 sr.reveal('#tech', { duration: 900 });
+
+function showNavOnScroll() {
+  if (scrollY > 0) {
+    menu.classList.add("scroll");
+  } else {
+    menu.classList.remove("scroll");
+  }
+}
+
+window.addEventListener("scroll", onScroll);
+onScroll();
+
+function onScroll() {
+  showNavOnScroll();
+}

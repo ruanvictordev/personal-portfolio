@@ -66,10 +66,17 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 5.2rem;
 
     position: sticky;
     top: 0;
     z-index: 1020;
+}
+
+nav.scroll {
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(1rem);
+    -webkit-backdrop-filter: blur(1rem);
 }
 
 nav ul {
@@ -87,11 +94,11 @@ nav ul li {
 
 .menu-itens li a {
     text-decoration: none;
-    color: var(--font-details-color);
+    color: #FFF;
 }
 
 .menu-itens li a:hover {
-    color: #FFF;
+    color: var(--font-details-color);
     transition: .5s;
 }
 
@@ -618,15 +625,23 @@ span {
         display: none;
         position: absolute;
         width: 100%;
-        top: 55px;
+        top: 80px;
         bottom: 100%;
         right: 0px;
-        background-color: var(--primary-color);
-        opacity: 90%;
+        background: rgba(0, 0, 0, 0.641);
+        backdrop-filter: blur(100rem);
+        -webkit-backdrop-filter: blur(100rem);
         height: calc(100vh - 55px);
         z-index: 1000;
-        transition: 3s;
+        transition: 1s;
         overflow-y: hidden;
+    }
+
+    #menu.scroll > .menu-itens{
+        background: rgba(0, 0, 0, 0.641);
+        backdrop-filter: blur(100rem);
+        -webkit-backdrop-filter: blur(100rem);
+        z-index: 2000;
     }
 
     .menu-itens li {
@@ -648,12 +663,12 @@ span {
         cursor: pointer;
     }
 
-    .menu.active .menu-itens {
+    #menu.active .menu-itens {
         display: block;
         overflow-y: auto;
     }
 
-    .menu.active .btn-menu {
+    #menu.active .btn-menu {
         transition: .5s;
         color: var(--secondary-color);
     }
@@ -740,8 +755,9 @@ span {
         width: 100%;
         top: 69px;
         right: 0px;
-        background-color: var(--primary-color);
-        opacity: 90%;
+        background: rgba(0, 0, 0, 0.641);
+        backdrop-filter: blur(100rem);
+        -webkit-backdrop-filter: blur(100rem);
         height: calc(100vh - 69px);
         z-index: 1000;
         transition: 3s;
@@ -768,12 +784,12 @@ span {
         cursor: pointer;
     }
 
-    .menu.active .menu-itens {
+    #menu.active .menu-itens {
         display: block;
         overflow-y: auto;
     }
 
-    .menu.active .btn-menu {
+    #menu.active .btn-menu {
         transition: .5s;
         color: var(--secondary-color);
     }
