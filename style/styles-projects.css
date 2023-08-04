@@ -19,8 +19,13 @@ body{
     margin-bottom: 8rem;
 }
 
+.title h3{
+    font-size: 2rem;
+}
+
 .title h4{
     margin-top: 0.5rem;
+    font-size: 1.5rem;
     color: var(--secondary-color);
 }
 
