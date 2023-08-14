@@ -75,6 +75,7 @@ nav {
 
 nav.scroll {
     background: rgba(0, 0, 0, 0.5);
+    border-bottom: 1px solid var(--line-details-color);
     backdrop-filter: blur(1rem);
     -webkit-backdrop-filter: blur(1rem);
 }
