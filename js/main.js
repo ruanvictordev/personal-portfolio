@@ -59,17 +59,17 @@ document.addEventListener('DOMContentLoaded', function() {
 
 // SCROLL REVEAL EFECT =============================================================================
 
-window.sr = ScrollReveal({ reset: true,origin: "top", distance:"20px", duration: 4000 });
+window.sr = ScrollReveal({ reset: true,origin: "top", distance:"70px", duration: 4000 });
 
-sr.reveal('#home', { duration: 900 });
+sr.reveal('#home', { duration: 1500 });
 
-sr.reveal('#about', { duration: 1000 });
+sr.reveal('#about', { duration: 1500 });
 
-sr.reveal('#projects', { duration: 900 });
+sr.reveal('#projects', { duration: 1500 });
 
-sr.reveal('#journey', { duration: 1000 });
+sr.reveal('#journey', { duration: 1500 });
 
-sr.reveal('#tech', { duration: 900 });
+sr.reveal('#tech', { duration: 1000 });
 
 function showNavOnScroll() {
   if (scrollY > 0) {
