@@ -59,7 +59,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 // SCROLL REVEAL EFECT =============================================================================
 
-window.sr = ScrollReveal({ reset: true,origin: "top", distance:"70px", duration: 4000 });
+window.sr = ScrollReveal({ reset: true,origin: "top", distance:"60px", duration: 4000 });
 
 sr.reveal('#home', { duration: 1500 });
 

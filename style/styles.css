@@ -629,9 +629,9 @@ span {
         top: 80px;
         bottom: 100%;
         right: 0px;
-        background: rgba(0, 0, 0, 0.641);
-        backdrop-filter: blur(100rem);
-        -webkit-backdrop-filter: blur(100rem);
+        background: rgba(0, 0, 0, 0.5);
+        backdrop-filter: blur(1rem);
+        -webkit-backdrop-filter: blur(1rem);
         height: calc(100vh - 55px);
         z-index: 1000;
         transition: 1s;
@@ -639,10 +639,10 @@ span {
     }
 
     #menu.scroll > .menu-itens{
-        background: rgba(0, 0, 0, 0.641);
-        backdrop-filter: blur(100rem);
-        -webkit-backdrop-filter: blur(100rem);
-        z-index: 2000;
+        background: rgba(0, 0, 0, 0.5);
+        backdrop-filter: blur(1rem);
+        -webkit-backdrop-filter: blur(1rem);
+        z-index: 900;
     }
 
     .menu-itens li {
