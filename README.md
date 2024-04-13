@@ -21,13 +21,14 @@ https://github.com/ruanvcg/Portfolio/assets/62728646/e7c66e5e-087a-45c8-9e18-108
 <details open="open">
   <summary><h2 style="display: inline-block">Table of Contents</h2></summary>
   <ol>
-    <li><a href="#features">Features</a></li>
-    <li><a href="#technologies-used">Technologies Used</a></li>
-    <li><a href="#skills-worked-on">Skills Worked On</a></li>
-        <li><a href="#getting-started">Getting Started</a></li>
-        <li><a href="#contributing">Contributing</a></li>
-        <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
+      <li><a href="#features">Features</a></li>
+      <li><a href="#technologies-used">Technologies Used</a></li>
+      <li><a href="#skills-worked-on">Skills Worked On</a></li>
+      <li><a href="#getting-started">Getting Started</a></li>
+      <li><a href="#contributing">Contributing</a></li>
+      <li><a href="#license">License</a></li>
+      <li><a href="#author">Author</a></li>
+      <li><a href="#contact">Contact</a></li>
   </ol>
 </details>
 
