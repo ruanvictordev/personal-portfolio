@@ -25,8 +25,6 @@ https://github.com/ruanvcg/Portfolio/assets/62728646/e7c66e5e-087a-45c8-9e18-108
     <li><a href="#technologies-used">Technologies Used</a></li>
     <li><a href="#skills-worked-on">Skills Worked On</a></li>
         <li><a href="#getting-started">Getting Started</a></li>
-        <li><a href="#usage">Usage</a></li>
-        <li><a href="#gallery">Gallery</a></li>
         <li><a href="#contributing">Contributing</a></li>
         <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
