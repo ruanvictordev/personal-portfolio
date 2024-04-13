@@ -7,7 +7,6 @@
 <div align="center">
 <h1>Pessoal Portfolio</h1>
 A portfolio website crafted with HTML, CSS, and JavaScript. This platform serves as a showcase for my recent study projects, designed to enhance my frontend skills. Through sleek design and intuitive navigation, visitors can explore my journey, interact with various projects, and witness firsthand the evolution of my abilities in frontend development. Dive in and discover the projects that represent my dedication to mastering the art of frontend development.
-
 <br></br>
 <a href="https://ruanvcg.github.io/portfolio/"><strong>Live Project »</strong></a>
 
