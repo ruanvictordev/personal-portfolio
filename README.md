@@ -10,7 +10,7 @@ A portfolio website crafted with HTML, CSS, and JavaScript. This platform serves
 <br></br>
 <a href="https://ruanvcg.github.io/portfolio/"><strong>Live Project »</strong></a>
 
-<a href="https://github.com/ruanvcg/Portfolio"><strong>Explore the docs »</strong></a>
+<a href="https://github.com/ruanvcg/portfolio"><strong>Explore the docs »</strong></a>
 <br></br>
 
 https://github.com/ruanvcg/Portfolio/assets/62728646/e7c66e5e-087a-45c8-9e18-1087e8c600f1
@@ -104,7 +104,7 @@ This project is licensed under the [MIT License](LICENSE).
 
 
 ## Contact
-For any inquiries or feedback, please contact: [ruanvictorp221112gmail.com](ruanvictorp221112gmail.com).
+For any inquiries or feedback, please contact: [ruanvictorp22111@gmail.com](ruanvictorp22111@gmail.com).
 
 Thanks! :)
 </div>
