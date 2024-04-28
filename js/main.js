@@ -59,13 +59,13 @@ document.addEventListener('DOMContentLoaded', function() {
 
 // SCROLL REVEAL EFECT =============================================================================
 
-window.sr = ScrollReveal({ reset: true,origin: "bottom", distance:"15px", duration: 2000 });
+window.sr = ScrollReveal({ reset: true,origin: "bottom", distance:"0.7rem", DelayNode: 300 });
 
 sr.reveal('#home', { duration: 1500 });
 
 sr.reveal('#about', { duration: 1500 });
 
-sr.reveal('#projects', { duration: 1500 });
+sr.reveal('#project', { duration: 1500 });
 
 sr.reveal('#project-img', { duration: 1600 });
 
