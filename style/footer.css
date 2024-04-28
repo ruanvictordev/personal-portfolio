@@ -1,0 +1,68 @@
+/**
+    CONTENT FOOTER STYLES ===========================================================================
+*/
+
+.content-footer {
+    background-color: var(--tertiary-color);
+    border-top: 2px solid var(--line-details-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 4rem;
+    margin-top: 4rem;
+
+}
+
+.content-footer h3 {
+    font-weight: normal;
+}
+
+.content-footer ul {
+    margin: 1rem;
+    list-style: none;
+    display: flex;
+}
+
+.content-footer ul li a {
+    margin: 0.5rem;
+    color: #FFF;
+    text-decoration: none;
+}
+
+.content-footer ul li a i {
+    font-size: 1.5rem;
+}
+
+.content-footer ul li a:hover {
+    color: var(--secondary-color);
+    transition: 0.5s;
+}
+
+#btnTop {
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    width: 50px;
+    height: 50px;
+    background-color: var(--primary-color);
+    border: 2px solid var(--line-details-color);
+    border-radius: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    opacity: 85%;
+
+    cursor: pointer;
+}
+
+#btnTop:hover {
+    background-color: var(--line-details-color);
+    border: 2px solid var(--primary-color);
+    transition: 0.5s;
+}
+
+#btnTop i {
+    color: var(--secondary-color);
+}

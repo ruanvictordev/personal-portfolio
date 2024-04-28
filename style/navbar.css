@@ -1,0 +1,52 @@
+/**
+    NAVBAR STYLES ===========================================================================
+*/
+
+nav {
+    background-color: var(--primary-color);
+    padding: 2% 5% 2% 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 5.2rem;
+
+    position: sticky;
+    top: 0;
+    z-index: 1020;
+}
+
+nav.scroll {
+    background: rgba(0, 0, 0, 0.5);
+    border-bottom: 1px solid var(--line-details-color);
+    backdrop-filter: blur(1rem);
+    -webkit-backdrop-filter: blur(1rem);
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    color: var(--font-details-color);
+    list-style: none;
+    margin-left: 21px;
+    font-size: 1.3rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.menu-itens li a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.menu-itens li a:hover {
+    color: var(--font-details-color);
+    transition: .5s;
+}
+
+.btn-menu {
+    display: none;
+    padding: 0;
+    margin: 0;
+}
