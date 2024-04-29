@@ -56,38 +56,6 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 });
 
-
-// SCROLL REVEAL EFECT =============================================================================
-
-window.sr = ScrollReveal({ reset: true,origin: "bottom", distance:"0.7rem", DelayNode: 300 });
-
-sr.reveal('#home', { duration: 1500 });
-
-sr.reveal('#about', { duration: 1500 });
-
-sr.reveal('#project', { duration: 1500 });
-
-sr.reveal('#project-img', { duration: 1600 });
-
-sr.reveal('#journey', { duration: 1500 });
-
-sr.reveal('#tech', { duration: 1000 });
-
-function showNavOnScroll() {
-  if (scrollY > 0) {
-    menu.classList.add("scroll");
-  } else {
-    menu.classList.remove("scroll");
-  }
-}
-
-window.addEventListener("scroll", onScroll);
-onScroll();
-
-function onScroll() {
-  showNavOnScroll();
-}
-
 function redirecionar(url) {
   window.open(url, '_blank');
 }

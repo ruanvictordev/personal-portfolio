@@ -59,14 +59,3 @@ p {
     color: var(--secondary-color);
 }
 
-/**
-    SCROLL REVEAL ===========================================================================
-*/
-
-#home,
-#about,
-#projects,
-#journey,
-#tech {
-    visibility: hidden;
-}
