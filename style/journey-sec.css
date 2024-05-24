@@ -9,12 +9,11 @@
 
 .content-journey .education-row {
     display: flex;
-    flex-wrap: wrap;
-    gap: 5rem;
+    flex-direction: column;
 }
 
 .education-row .education-column {
-    flex: 1 1 40rem;
+    flex: 1 1 10rem;
 }
 
 .education-column .title {
