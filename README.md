@@ -58,29 +58,6 @@ https://github.com/ruanvcg/Portfolio/assets/62728646/e7c66e5e-087a-45c8-9e18-108
    - Go and open the directory `Portfolio` to access the repository.
    - Also, you can navigate to `index.html` to open the project in your browser.
 
-<!-- ## Usage
-- **Add Todo**: Click on the form text entry at the bottom left of the page to add a new task. Fill in the necessary details such as title, difficulty, priority, and category color.
-- **Change Status**: Use the provided options to change the status of a todo (e.g., Pending, Completed, Archived).
-- **Delete Todo**: Click on the delete icon next to a task to remove it from the list.
-- **Alerts**: Notice the alerts that give feedback on changes in the status of your todo. -->
-
-<!-- ## Gallery
-
-| App with closed form input | App with open form input |
-|-----------------------------|--------------------------|
-| ![Image 1](https://github.com/Shellyda/nextjs-todo-app/assets/69990297/61bc51bc-28a9-43f7-941d-6015be8b1a81) | ![Image 2](https://github.com/Shellyda/nextjs-todo-app/assets/69990297/8d83dc4a-145a-4e31-bab7-6241219bb914) |
-
-### Videos:
-
-#### 1. Add todo form animations: 
-https://github.com/Shellyda/nextjs-todo-app/assets/69990297/d0ef7d0e-8626-4cad-9578-eb8aa5568639
-
-#### 2. Cards hover effect:
-https://github.com/Shellyda/nextjs-todo-app/assets/69990297/3fbf979e-e52d-41d6-85fc-0bcdd3537464
-
-#### 3. Alerts feedbacks:
-https://github.com/Shellyda/nextjs-todo-app/assets/69990297/4ed285c6-f0b6-4f5e-858c-26bcfe7a7992 -->
-
 ## Contributing
 Contributions are welcome! Feel free to submit bug reports, feature requests, or pull requests to help improve this project.
 
